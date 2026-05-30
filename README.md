@@ -5,7 +5,16 @@ The most unique feature of the app is Scan Sudoku, which allows users to take a 
 
 I created this project to make Sudoku easier to access and more engaging for modern users. It helps people practice problem-solving and concentration in a simple and enjoyable way.
 
+How to Play
+
+1. Choose a difficulty level.
+2. Click **New Game** to load the selected Sudoku puzzle.
+3. Select a cell and enter numbers using the number buttons.
+4. Use hints, undo, and other tools if needed.
+5. Complete the puzzle as quickly and accurately as possible to achieve the best score.
+
 Unique Features
+
 1. 5 difficulty levels (Easy to Master)
 2. Dark Mode
 3. Hint system
