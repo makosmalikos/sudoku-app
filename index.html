@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sudoku App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sudoku App</h1>
+
+<button id="themeBtn">🌙 Dark Mode</button>
+<button id="hintBtn">💡 Hint</button>
+<select id="difficulty">
+    <option value="easy">Easy ⭐</option>
+    <option value="medium">Medium ⭐⭐</option>
+    <option value="hard">Hard ⭐⭐⭐</option>
+    <option value="expert">Expert ⭐⭐⭐⭐</option>
+    <option value="master">Master ⭐⭐⭐⭐⭐</option>
+
+</select>
+
+
+
+<button id="newGame">New Game</button>
+<button onclick="
+document.getElementById('cameraInput').click()
+">
+📸 Scan Sudoku
+</button>
+
+<input
+    type="file"
+    id="cameraInput"
+    accept="image/*"
+    capture="environment"
+    style="display:none">
+<span id="levelLabel">
+    Current Level: Easy ⭐
+</span>
+
+
+<button id="dailyBtn">🏆 Daily Challenge</button>
+
+<div class="stats">
+    <span id="mistakes">Mistakes 0/50</span>
+    <span id="timer">⏰ 00:00</span>
+</div>
+
+<div id="board" class="board"></div>
+
+<div class="controls">
+    <button id="undoBtn">↶ Undo</button>
+    <button id="eraseBtn">⌫ Erase</button>
+</div>
+
+<div class="numbers">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+</div>
+</div>
+<script src="script.js"></script>
+<h2>🐱 Unlock the Cat!</h2>
+
+<div id="gallery" style="display:flex; justify-content:center; gap:0;">
+    <img id="piece1" src="piece1.jpg" style="display:none;width:100px;">
+    <img id="piece2" src="piece2.jpg" style="display:none;width:100px;">
+    <img id="piece3" src="piece3.jpg" style="display:none;width:100px;">
+    <img id="piece4" src="piece4.jpg" style="display:none;width:100px;">
+    <img id="piece5" src="piece5.jpg" style="display:none;width:100px;">
+</div>
+</body>
+</html>

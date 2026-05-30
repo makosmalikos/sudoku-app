@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sudoku Photo</title>
+</head>
+<body>
+
+<h1>Uploaded Sudoku</h1>
+
+<img id="photo" width="350">
+
+<script>
+
+const image =
+localStorage.getItem("sudokuPhoto");
+
+document.getElementById("photo").src =
+image;
+
+</script>
+
+</body>
+</html>
